@@ -1,0 +1,444 @@
+{
+    "id": "ea58ea3c65b85cce59a9f97047ea4c9c",
+    "name": "Icon Finder",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "cf83f0a1aee74f8f57f666d390bed501",
+            "name": "Get author details",
+            "url": "httpsapi.iconfinder.com\/v2\/\/authors\/{authorID}",
+            "description": "Get details about a specific author identified by a unique ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "authors",
+                    "description": "The ID of the author.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "rawModeData": ""
+        },
+        {
+            "id": "be543588c52db4053faaceb097524a78",
+            "name": "List all categories",
+            "url": "httpsapi.iconfinder.com\/v2\/\/categories",
+            "description": "List all categories sorted ascendingly by their identifier.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "after",
+                    "description": "identifier of the last category received. If empty, the count first categories are returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "rawModeData": ""
+        },
+        {
+            "id": "894a04d378739ff8146630b5420f4608",
+            "name": "Search for icons",
+            "url": "httpsapi.iconfinder.com\/v2\/\/icons\/search",
+            "description": "Search through icons by various criteria. The returned list of icons is ordered descendingly by popularit",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "category",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "license",
+                    "description": "Filter by license scope.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "maximum_size",
+                    "description": "Maximum icon size to include in search result. Default 512.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "minimum_size",
+                    "description": "Minimum icon size to include in search result. Default 0.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "offset",
+                    "description": "Result offset. Starts from 0, resulting in the first count icons being returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "premium",
+                    "description": "Filter premium icons.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "query",
+                    "description": "Keyword to search by.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "style",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "vector",
+                    "description": "Filter vector icons.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "rawModeData": ""
+        },
+        {
+            "id": "1140a8f7b9f983ea3d56398791bc942b",
+            "name": "Get license details",
+            "url": "httpsapi.iconfinder.com\/v2\/\/licenses\/{licenseID}",
+            "description": "Get details about a specific license by its unique ID.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "licenseID",
+                    "description": "The unique id of the license",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "rawModeData": ""
+        },
+        {
+            "id": "f892cad8daecf74cbee8549de9f0bf49",
+            "name": "Get style details",
+            "url": "httpsapi.iconfinder.com\/v2\/\/styles\/{styleID}",
+            "description": "Get details about a specific style identified by its identifier.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "rawModeData": ""
+        },
+        {
+            "id": "ef9db35071169aa78c3e4d7577bf8b73",
+            "name": "Get Authentication User.",
+            "url": "httpsapi.iconfinder.com\/v2\/\/user",
+            "description": "Gets an authenticated user.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "rawModeData": ""
+        },
+        {
+            "id": "328526a5a0f03574bd2b0037746b3c2e",
+            "name": "Get category details",
+            "url": "httpsapi.iconfinder.com\/v2\/\/v2\/categories\/{categoryID}",
+            "description": "Get details about a specific category identified by its identifier.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "categoryID",
+                    "description": "The unique ID of the category.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "rawModeData": ""
+        },
+        {
+            "id": "f4cc4eac7dea9c7491a55ac6b7649af3",
+            "name": "Get icon details",
+            "url": "httpsapi.iconfinder.com\/v2\/\/v2\/icons\/{iconID}",
+            "description": "Get details about a specific ico",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "iconID",
+                    "description": "The unique ID of the icon.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "rawModeData": ""
+        },
+        {
+            "id": "03aa4ed344bf294b64d1921946c28929",
+            "name": "List all icons in an icon set",
+            "url": "httpsapi.iconfinder.com\/v2\/\/v2\/iconsets\/{iconID}\/icons",
+            "description": "Provides a list of all icons in an icon set sorted descendingly by the popularity of the icons.List all icons in an icon set",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "after",
+                    "description": "identifier of the last category received. If empty, the count first categories are returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "List all icons in an icon set",
+                    "description": "Unique id of the icon.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "rawModeData": ""
+        },
+        {
+            "id": "c41c11ad4a4ef3ef54a402dbbd392320",
+            "name": "List all styles",
+            "url": "httpsapi.iconfinder.com\/v2\/\/v2\/styles",
+            "description": "List all styles sorted ascendingly by their identifier.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "after",
+                    "description": "identifier of the last category received. If empty, the count first categories are returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "rawModeData": ""
+        },
+        {
+            "id": "7e59496d219b889206981b8cac7597f3",
+            "name": "Get user details",
+            "url": "httpsapi.iconfinder.com\/v2\/GET \/v2\/users\/{userID}",
+            "description": "Get details about a specific user.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "rawModeData": ""
+        },
+        {
+            "id": "2edf320530e9b63445d8f984a3867bbc",
+            "name": "Get user details",
+            "url": "httpsapi.iconfinder.com\/v2\/GET \/v2\/users\/{username}",
+            "description": "Get details about a specific user.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "rawModeData": ""
+        }
+    ]
+}
