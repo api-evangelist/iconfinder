@@ -1,0 +1,128 @@
+{
+    "name": "Iconfinder",
+    "description": "Iconfinder is the leading search engine and market place for vector icons in SVG, PNG, CSH and AI format..",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1538-iconfinder.jpg",
+    "tags": [
+        "api provider",
+        "general data",
+        "have api",
+        "icon",
+        "images",
+        "marketplaces",
+        "relative data",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/iconfinder\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "IconFinder",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1538-iconfinder.jpg",
+            "humanURL": "http:\/\/iconfinder.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/iconfinder-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/iconfinder.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/iconfinder-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Icon Finder",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1538-iconfinder.jpg",
+            "humanURL": "http:\/\/iconfinder.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/icon-finder-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/icon-finder.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/icon-finder-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/www.iconfinder.com\/xml\/"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.iconfinder.com\/blog"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blog.iconfinder.com\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/iconfinder"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/iconfinder"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/www.iconfinder.com\/about\/api"
+        },
+        {
+            "type": "Email",
+            "url": "support@iconfinder.com"
+        },
+        {
+            "type": "Email",
+            "url": "contact@iconfinder.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/iconfinder"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/www.iconfinder.com\/pro"
+        },
+        {
+            "type": "Privacy",
+            "url": "https:\/\/www.iconfinder.com\/about\/privacypolicy"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "https:\/\/developer.iconfinder.com\/api\/2.0\/terms.html"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/iconfinder"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/iconfinder.com"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.iconfinder.com"
+        }
+    ]
+}
