@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v2",
+        "title": "IconFinder",
+        "description": "Give your users instant access to more than 300,000 icons.",
+        "termsOfService": "https:\/\/developer.iconfinder.com\/api\/2.0\/terms.html"
+    },
+    "servers": [
+        "httpapi.iconfinder.com\/v2\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}
