@@ -1,5 +1,5 @@
 {
-    "id": "ea58ea3c65b85cce59a9f97047ea4c9c",
+    "id": "cf3d772f6c90369ca35df3344d1797be",
     "name": "Icon Finder",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "cf83f0a1aee74f8f57f666d390bed501",
+            "id": "49c619e7a8f63590c8c2a2f48f00fda1",
             "name": "Get author details",
             "url": "httpsapi.iconfinder.com\/v2\/\/authors\/{authorID}",
             "description": "Get details about a specific author identified by a unique ID.",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "collectionId": "cf3d772f6c90369ca35df3344d1797be",
             "rawModeData": ""
         },
         {
-            "id": "be543588c52db4053faaceb097524a78",
+            "id": "df50f23267949134b30c898ae6c8e9a2",
             "name": "List all categories",
             "url": "httpsapi.iconfinder.com\/v2\/\/categories",
             "description": "List all categories sorted ascendingly by their identifier.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "collectionId": "cf3d772f6c90369ca35df3344d1797be",
             "rawModeData": ""
         },
         {
-            "id": "894a04d378739ff8146630b5420f4608",
+            "id": "acea16a51dc7e496717c662792f5ed36",
             "name": "Search for icons",
             "url": "httpsapi.iconfinder.com\/v2\/\/icons\/search",
             "description": "Search through icons by various criteria. The returned list of icons is ordered descendingly by popularit",
@@ -169,11 +169,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "collectionId": "cf3d772f6c90369ca35df3344d1797be",
             "rawModeData": ""
         },
         {
-            "id": "1140a8f7b9f983ea3d56398791bc942b",
+            "id": "614c4190d0958ddcb0cf12d6a2278aaf",
             "name": "Get license details",
             "url": "httpsapi.iconfinder.com\/v2\/\/licenses\/{licenseID}",
             "description": "Get details about a specific license by its unique ID.",
@@ -200,11 +200,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "collectionId": "cf3d772f6c90369ca35df3344d1797be",
             "rawModeData": ""
         },
         {
-            "id": "f892cad8daecf74cbee8549de9f0bf49",
+            "id": "89e390bbf76541427baee5b64479f1d9",
             "name": "Get style details",
             "url": "httpsapi.iconfinder.com\/v2\/\/styles\/{styleID}",
             "description": "Get details about a specific style identified by its identifier.",
@@ -223,11 +223,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "collectionId": "cf3d772f6c90369ca35df3344d1797be",
             "rawModeData": ""
         },
         {
-            "id": "ef9db35071169aa78c3e4d7577bf8b73",
+            "id": "abdb7f420f66c97528d2df66ca80f5e0",
             "name": "Get Authentication User.",
             "url": "httpsapi.iconfinder.com\/v2\/\/user",
             "description": "Gets an authenticated user.",
@@ -246,11 +246,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "collectionId": "cf3d772f6c90369ca35df3344d1797be",
             "rawModeData": ""
         },
         {
-            "id": "328526a5a0f03574bd2b0037746b3c2e",
+            "id": "41fd32f317f70f0d956418f420cc31d5",
             "name": "Get category details",
             "url": "httpsapi.iconfinder.com\/v2\/\/v2\/categories\/{categoryID}",
             "description": "Get details about a specific category identified by its identifier.",
@@ -277,11 +277,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "collectionId": "cf3d772f6c90369ca35df3344d1797be",
             "rawModeData": ""
         },
         {
-            "id": "f4cc4eac7dea9c7491a55ac6b7649af3",
+            "id": "72241880f9c2820a056f3d8a21c6af69",
             "name": "Get icon details",
             "url": "httpsapi.iconfinder.com\/v2\/\/v2\/icons\/{iconID}",
             "description": "Get details about a specific ico",
@@ -308,11 +308,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "collectionId": "cf3d772f6c90369ca35df3344d1797be",
             "rawModeData": ""
         },
         {
-            "id": "03aa4ed344bf294b64d1921946c28929",
+            "id": "ab3caac9cd0e9c4cff84b4995155cdfb",
             "name": "List all icons in an icon set",
             "url": "httpsapi.iconfinder.com\/v2\/\/v2\/iconsets\/{iconID}\/icons",
             "description": "Provides a list of all icons in an icon set sorted descendingly by the popularity of the icons.List all icons in an icon set",
@@ -353,11 +353,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "collectionId": "cf3d772f6c90369ca35df3344d1797be",
             "rawModeData": ""
         },
         {
-            "id": "c41c11ad4a4ef3ef54a402dbbd392320",
+            "id": "bdc8d4ef87c4ce1a8270f3bce53140b2",
             "name": "List all styles",
             "url": "httpsapi.iconfinder.com\/v2\/\/v2\/styles",
             "description": "List all styles sorted ascendingly by their identifier.",
@@ -391,11 +391,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "collectionId": "cf3d772f6c90369ca35df3344d1797be",
             "rawModeData": ""
         },
         {
-            "id": "7e59496d219b889206981b8cac7597f3",
+            "id": "1292f77d2f86e9e94fa62dabfad17afe",
             "name": "Get user details",
             "url": "httpsapi.iconfinder.com\/v2\/GET \/v2\/users\/{userID}",
             "description": "Get details about a specific user.",
@@ -414,11 +414,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "collectionId": "cf3d772f6c90369ca35df3344d1797be",
             "rawModeData": ""
         },
         {
-            "id": "2edf320530e9b63445d8f984a3867bbc",
+            "id": "518237702d7529c91f59d68bcb4edb54",
             "name": "Get user details",
             "url": "httpsapi.iconfinder.com\/v2\/GET \/v2\/users\/{username}",
             "description": "Get details about a specific user.",
@@ -437,7 +437,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ea58ea3c65b85cce59a9f97047ea4c9c",
+            "collectionId": "cf3d772f6c90369ca35df3344d1797be",
             "rawModeData": ""
         }
     ]
