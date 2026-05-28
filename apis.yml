@@ -1,0 +1,32 @@
+aid: iconfinder
+name: Iconfinder
+description: "Icons"
+url: https://developer.iconfinder.com
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Art & Design"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Art And Design
+  - Public APIs
+apis:
+  - name: Iconfinder
+    description: "Icons"
+    humanURL: https://developer.iconfinder.com
+    baseURL: https://developer.iconfinder.com
+    tags:
+      - Art And Design
+    properties:
+      - type: Documentation
+        url: https://developer.iconfinder.com
+common:
+  - type: Website
+    url: https://developer.iconfinder.com
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
