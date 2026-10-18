@@ -42,7 +42,8 @@ apis:
   - name: Iconfinder
     description: "Icons"
     humanURL: https://developer.iconfinder.com
-    tags:
+    tags: []
+    tags_raw:
       - Art And Design
     properties:
       - type: Documentation
